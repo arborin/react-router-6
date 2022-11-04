@@ -11,7 +11,12 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
+
                 <Route path="*" element={<Error />} />
+
+                <Route path="/dashboard">
+                    <Route path="info" element={<h1>INFO</h1>} />
+                </Route>
             </Routes>
             <footer>Footer</footer>
         </BrowserRouter>
