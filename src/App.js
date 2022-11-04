@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Products from "./pages/Products";
@@ -7,6 +8,7 @@ import Navbar from "./components/Navbar";
 import SingleProduct from "./pages/SingleProduct";
 
 function App() {
+    const [user, setUser] = useState(null);
     return (
         <BrowserRouter>
             <Navbar />
