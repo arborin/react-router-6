@@ -493,3 +493,5 @@ const ProtectedRoute = ({ children, user }) => {
 
 export default ProtectedRoute;
 ```
+#   r e a c t - r o u t e r - 6  
+ 
